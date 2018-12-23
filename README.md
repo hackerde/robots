@@ -1,10 +1,10 @@
 # Robot Rescuers
 
-This is a project by Anway De, Linh Tran and Rob Berger for Parallel and Distributed Computing in Fall 2018.
+This is a simulation of robots navigating a map to perform certain tasks. The idea is that they are trying to rescue or provide some kind of first aid to people stuck in a disaster. There are obstacles on the way which the robots avoid to reach their targets.
 
-This project uses OpenMPI installed on a multi-node cluster.
+This project uses OpenMPI installed on a multi-node cluster. It also uses SFML to generate graphics.
 
-* Clone the repository: `git clone git@stogit.cs.stolaf.edu:pdc-f18/robot.git`
+Install SFML by: `sudo apt install libsfml-dev`
 
 * Run the script to compile and run automatically: `./run.sh <number_of_robots>`
 
